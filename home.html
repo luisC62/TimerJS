@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Timer</title>
+    <link rel="icon" type="image/png" href="icons/alarm.png" sizes="64x64">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/timer.css">
+    <link href="https://cdn.jsdelivr.net/npm/round-slider@1.4.0/dist/roundslider.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fugit.css">
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/round-slider@1.4.0/dist/roundslider.min.js"></script>
+    <script src="js/jquery.fugit.js"></script>
+
+
+    <style>
+    </style>
+    <script src="js/timer.js"></script>
+    
+</head>
+<body>
+    <div class="mainframe" id="clkframe">
+        <div class="clocktext" id="clktext1">00:00:00</div>
+        <div id="slidercontainer">
+            <div id="appearance2"></div>
+        </div>
+    </div>
+    <div class="mainframe" id="ctrlframe">
+        <div class="clocktext" id="clktext2">00:00:00</div>
+        <div class="btn" id="backBtn">Clock</div>
+        <div class="btn" id="resetBtn">Reset</div>
+        <div class="btn" id="startstopBtn"><Start>Start/Stop</div>
+    </div>
+    <div class="mainframe" id="setframe">
+        <div class="clocktext" id="clktext3">00:00:00</div>
+        <div class="clocktext">
+            <input id="fugit" value="00:05">
+        </div>
+        <div class="btn" id="setBtn">Set</div>
+    </div>
+    <audio id="warningSound" src="audio/warning.mp3"></audio>
+</body>
+</html>

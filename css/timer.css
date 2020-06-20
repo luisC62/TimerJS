@@ -1,0 +1,70 @@
+.mainframe {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: solid 1px black;
+    font-family: sans-serif;
+}
+#clkframe{
+    background-color: white;
+    font-size: 2em;
+    display: none;
+    flex-direction: column;
+}
+#ctrlframe{
+    background-color: white;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+}
+#setframe{
+    background-color: white;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.clocktext{
+    width: 300px;
+    margin: auto;
+    color: black;
+    font-family: sans-serif;
+    font-size: 2.4em;
+}
+.btn{
+    width: 400px;
+    margin: auto;
+    padding: 15px;
+    background: #1317E5;
+    color: #e1e9fa;
+    font-size; 1em;
+    font-family: 'Roboto', Arial, sans-serif, helvetica;
+    border-radius:4px;
+    border:none;
+    float: right;
+    cursor: pointer;
+    opacity:0.8;
+    outline:none;
+    text-align: center;
+}
+.btn:hover{
+    opacity:1;
+}
+#startstopbtn{
+    background: #059E2C ;
+}
+#slidercontainer{
+    width: 400px;
+    margin: auto;
+}
+
+
+/* Round Slider: */
+#appearance2 .rs-range-color  {
+    background-color: #ff8d00;
+}
+#appearance2 .rs-handle:after  {
+    background-color: #000000;
+}
+#appearance2 .rs-border  {
+    border-color: #ff8d00;
+}
